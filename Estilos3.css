@@ -1,0 +1,58 @@
+#Contenedor {
+    border: 5px;
+    border-color: black;
+    width: full;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin: auto;
+    justify-content: space-between;
+    
+
+}
+
+
+
+.Rojo {
+
+background-color: red;
+width: 150px;
+height: 150px;
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+order: 1;
+
+
+}
+
+.Verde {
+
+    background-color: green;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    order: 3;
+    
+
+}
+
+
+.Azul {
+
+    background-color: blue;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    order: 2;
+
+}
